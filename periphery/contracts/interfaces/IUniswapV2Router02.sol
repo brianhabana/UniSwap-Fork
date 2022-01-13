@@ -21,6 +21,8 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
         bool approveMax, uint8 v, bytes32 r, bytes32 s
     ) external returns (uint amountETH);
 
+    /* not using for purposes
+
     function swapExactTokensForTokensSupportingFeeOnTransferTokens(
         uint amountIn,
         uint amountOutMin,
@@ -41,4 +43,5 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
         address to,
         uint deadline
     ) external;
+    */
 }
